@@ -1,0 +1,17 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: service_edu
+  profiles:
+    active: dev
+  jackson:
+    time-zone: GMT+8
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+logging:
+  level:
+    root: info
